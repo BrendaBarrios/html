@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1>MODELO DE CAJA</h1>
+    <div> este es un div</div>
+    <div style="display: inline;"> este es un div</div>
+    <!--El boton e input tiene vista inline-->
+    <button> boto</button>
+    <input type="date" name="fecha" id="fecha1">
+    <!-- Nombre de la etiqueta:valor-->
+    <button style="display:block;"> boto</button>
+    <input type="date" name="fecha" id="fecha1">
+    <ul>
+        <li> uno</li>
+        <li>dos</li>
+    </ul>
+    <!-- La eiqueta p,section,h1 y div tiene vista de bloque-->
+
+    <div> este es un div</div>
+    <section> seccion</section>
+
+    <!--EN linea solo toma como espacio lo que ocupa cada etiqueta o nodo-->
+    <!--En bloque toma todo el ancho de la página aunque no lo necesite-->
+
+    <div id="caja">
+        <div id="hijo1" class="subcaja"></div>
+        <div id="hijo2" class="subcaja">
+            <button>boton1</button>
+        </div>
+        <div id="hijo3" class="subcaja"></div>
+    </div> <!--cajasin nada-->
+    
+</body>
+</html>

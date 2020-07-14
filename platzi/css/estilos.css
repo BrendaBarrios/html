@@ -1,0 +1,33 @@
+/*
+reglas
+selectores
+declaraciones
+propiedades
+valores 
+*/
+
+
+/* Regla es el conjunto de un selector es todo. */
+
+
+/* Selector de etiqueta es body,header,article etc.. */
+body{ 
+
+    /*  propiedad      :   valor        =  DECLARACIÓN */
+    background-color: aquamarine !important;
+}
+
+
+/* Selector descendente elemento hijo de otro elemento  */
+/* body header div nav ol li a {} */
+
+/* selector de clase */
+.link{
+    background-color: yellow;
+}
+
+/* selector de id */
+#portafolio{
+    
+}
+

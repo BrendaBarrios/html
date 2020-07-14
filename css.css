@@ -1,0 +1,27 @@
+*  {
+    border: 1px solid black;
+    
+}
+
+ul{
+    list-style-type: decimal;
+
+}
+.subcaja{
+    height: 50px;
+    width: 50px;
+    margin-bottom:60px;
+    background-color: blueviolet;
+ }
+/*Separacón entre la orilla de la caja y el texto del elemento 1*/
+/* Separacion entre la orilla de la caja principal y al resto de las cajas*/
+/* Border contorno de la imagen*/
+.subcaja button{
+    padding:7%; 
+    margin: 5px;
+    border-width: 10px;
+    
+}
+ #hijo3{
+    border-radius:50%;
+}
