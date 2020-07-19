@@ -1,0 +1,82 @@
+/*Referenciando por palabra clave*/
+p{
+    font-family: Arial;
+}
+
+
+/*Referenciando por medio de un id*/
+#div{
+    background-color: blue;
+}
+
+/*Referenciando por clase*/
+
+.clase1{
+  font-size: small;
+}
+
+/*Referenciando palabra clave por medio de una clase*/
+
+h1.clase2{
+  color: brown;
+}
+
+/* Referencia cualquier atributo = SELECTOR DE ATRIBUTO*/
+
+a[href="https://www.facebook.com/"]{
+  color: chocolate;
+}
+
+/* Referenciado con pseudoclases : Indica el hijo en la posición*/
+p:nth-child(1){
+  background: #999999;
+}
+
+*{
+  margin: 0px;
+}
+
+/* Usando referencias con old(impar) and even(par)*/
+p:nth-child(odd){
+  background: #999999;
+}
+
+p:nth-child(even){
+  background:#CCCCCC;
+}
+
+/* Utilizando referencias por palabras clave :
+first-child,last-child,only-child*/
+
+h1:only-child{
+  color: blue;
+}
+
+/*Uso de negación en referencias*/
+:not(p){
+  margin: 0px;
+}
+
+/*NUEVOS SELECTORES*/
+
+
+/*El selector ">" afecta al elemento de la derecha 
+siempre y cuando su padre sea div*/
+div > p.mitexto1{
+  background-color: chartreuse;
+}
+
+/* selector utilizando "+" elemento de la derecha 
+cuando es precedido por el de la izquierda*/
+
+p.mitexto2 + p{
+  color: #990000;
+}
+
+
+/* selector utilizando "~"  se afectan todos los elementos 
+p que se encuentren abajo del identificado como motexto3*/
+
+p.mitexto3~ p{
+  color: orange;
+}
