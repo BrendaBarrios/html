@@ -17,10 +17,28 @@ h1,h2,h3,h4,h5,h6{
 h1 {
     /*Espacio entre lineas*/
     line-height: 1.5;
+
     /*Tamaño de fuente*/
     font-size: 40px;
+
     /*separacion entre letras*/
     letter-spacing: -.2px;
-    /*Cambiar fuente a mayusculas = text-transform: uppercase;*/
-    /*Texto subrayado = text-decoration:underline;*/
+
+    /*Cambiar fuente a mayusculas
+    text-transform: uppercase;*/
+
+    /*Texto subrayado 
+    text-decoration:underline;*/
+}
+
+.hero{
+    height: 300px;
+}
+
+.project-details{
+    width: 500px;
+}
+
+.project_image_container{
+
 }
