@@ -6,5 +6,21 @@ body {
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Fjalla One',sans-serif;
+    /*Tipo fuente más delgada es el numero menor menor el mas grueso es mayor le normal es 400 */
+    font-weight: normal;
+    /*Tipo de letra italica o cursiva*/
+    /*font-style:italic ; */
 }
 
+/*Ca,biando propiedad de alto de linea 0 es cero 1 es 100*/
+
+h1 {
+    /*Espacio entre lineas*/
+    line-height: 1.5;
+    /*Tamaño de fuente*/
+    font-size: 40px;
+    /*separacion entre letras*/
+    letter-spacing: -.2px;
+    /*Cambiar fuente a mayusculas = text-transform: uppercase;*/
+    /*Texto subrayado = text-decoration:underline;*/
+}
