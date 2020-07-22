@@ -1,46 +1,54 @@
 
 h1{
-    font-size: 40px;
+    font-size: 300%;
     text-align: center;
-    color: blue;
+    color:rgb(67, 67, 224);
+    letter-spacing :.1em;
 }
 
-.fila{
-    align-self: flex-start;
-    background-position-x: center;
-    background-position-y: center;  
+.principal{
+    background-color: brown;  
+    width:100%;
+    height: 100%;
 }
 
 #resultado{
-    border-style:solid;
-    width: auto;
-    height: auto;
-    height: 40px;
-   
-    
+    border-style:outset;
+    border-radius: 2;
+    width: 96%;
+    height: 100%;
+    font-size: 400%;
+    background-color:azure;
+    text-align:right ;
 }
 
 button{
-    height:100px ;
-    width:100px ;
-    margin: auto;
-    
-
-    
+    height:100%;
+    width:24%;
+    font-size: 400%;
+    border-radius:10%;
 }
-div{
-    width:fit-content;
-    margin: auto;
-    
-   
+.fila{
+    width:auto;
+    height: 100%;
 }
-
-
 
 body{
-    padding-inline-start: 10%;
-    padding-block-end: 10px;
-    perspective: 600em;
-    width: 1000px;
-    height: 1000px;
+    width: auto;
+    height: 100%; 
 }
+
+#operaciones{
+    background-color: rgb(162, 186, 231);
+}
+
+#btn-igual{
+    background-color: rgb(137, 192, 81);
+    
+}
+
+#btn-limpiar{
+    background-color: crimson;
+}
+
+
