@@ -4,6 +4,7 @@
     height: auto;
     padding: 2%;
     margin: 1%;   
+    box-sizing: content-box;
 }
 
 h1{
