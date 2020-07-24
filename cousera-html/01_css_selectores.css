@@ -1,0 +1,30 @@
+
+
+h2, h1 {
+   color: blue;
+}
+
+p.clase1 {
+    font-size: 100px;
+}
+
+/**Busca en la sección articulo a las secciones P**/
+article > p {
+    background-color: red;
+}
+
+article h1{
+    color: blueviolet;
+}
+
+article p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn2 button{
+    font-size: 200px;
+}
+
+article > .clase2{
+    font-size: 200px;
+}
