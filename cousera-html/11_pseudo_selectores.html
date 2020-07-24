@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Pseduo-selectores</title>
+    <style>
+        header li{
+            list-style: none;
+        }
+
+        /*Estasodos enla lista*/
+
+        /*El hower pone la manita*/
+        a:link,a:visited{
+            text-decoration: none;
+            background-color: aqua;
+            border: 1px solid blue;
+            color: black;
+            display: block;
+            width: 200px;
+            text-align: center;
+            margin-bottom: 1px;
+        }
+
+        /* Cambia de color al selecionarlo */
+        a:hover,a:active{
+            background-color: blueviolet;
+            color:azure
+        }
+
+        /* Cambia la letra al tercer hijo de la lista*/
+        header li:nth-child(3){
+            font-size: 24px;
+        }
+
+        /* Afecta a los hijos con indice impar de un elemento*/
+        section div:nth-child(odd){
+            background-color: coral;
+        }
+
+        /*Afecta al 4 elemento de la lista cambiandolo de color cuando se selecciona*/
+        section div:nth-child(4):hover{
+            background-color: pink;
+            cursor: pointer;
+        }
+
+         /*Afecta al lo elementos pares del div cambiandolo de color cuando se selecciona*/
+        section div:nth-child(even):hover{
+            background-color: pink;
+            cursor: pointer;
+        }
+    </style>
+    <body>
+        <h1>Pseudo selectores clases</h1>
+
+        <header>
+            <ul>
+                <li><a href="https://web.whatsapp.com/" target="_blank">Whatsap Web</a></li>
+                <li><a href="https://www.coursera.org/in-progress" target="_blank">Coursera progreso</a></li>
+                <li><a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/3">Curso semana 3</a></li>
+            </ul>
+        </header>
+
+        <section>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+            <div>Div1</div>
+        </section>
+    </body>
+</head>
