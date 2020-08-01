@@ -25,6 +25,12 @@ h1 {
     letter-spacing: -.2px;
     color:aliceblue;
 
+    /* Orden del margen como las manecillas del reloj   
+    margin: top right bottom left*/
+
+    margin: 100px 520x 70px 30px;
+
+
     /*Cambiar fuente a mayusculas
     text-transform: uppercase;*/
 
@@ -34,6 +40,7 @@ h1 {
 
 h1 strong {
     color:#026fff;
+    margin: 0%;
 }
 
 
@@ -47,8 +54,11 @@ h1 strong {
 
 }
 
-.project-details{
+.project-details {
     width: 500px;
+    /*separacion margen iguales lados para un boton*/
+    /*Si se coloca un auto centra de acuerdo al espacio disponible*/
+    margin: 10px 20px;
 }
 
 .project_image_container{
@@ -79,14 +89,17 @@ h1 strong {
     border-top-width: 15px;
     border-top-style: solid;*/
 
-    border: 1px solid gray;
-    border-radius: 10px;
 
     /*Redondea a solo una esquina
     border-top-left-radius: 50px;*/
 
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    
+
 }
 
 .project-details {
-    border: ;
+    border:0% ;
 }
